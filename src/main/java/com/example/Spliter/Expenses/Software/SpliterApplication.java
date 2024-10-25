@@ -7,13 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpliterApplication {
 
 	public static void main(String[] args) {
-		SpliterApplication obj=new SpliterApplication();
 		SpringApplication.run(SpliterApplication.class, args);
-		obj.ret();
+	}
 
-	}
-	private String ret(){
-		return "heloooo";
-	}
 
 }
